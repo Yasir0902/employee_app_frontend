@@ -9,8 +9,9 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
     <h1>Employee-Project Management</h1>
     <nav>
       <ul>
-        <li><a routerLink="/employees" routerLinkActive="active">Employees</a></li>
-        <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
+      <li><a routerLink="/employee-view">Employee View</a></li>
+        <li><a routerLink="/employees" routerLinkActive="active">Add Employee</a></li>
+        <li><a routerLink="/projects" routerLinkActive="active">Add Project</a></li>
         <li><a routerLink="/assign-project" routerLinkActive="active">Assign Project</a></li>
       </ul>
     </nav>
